@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    font-family: Arial;
+}
+/*header*/
+header {
+    width: 100%;
+    height: 100px;
+    background: #ffff56;
+    color: green;
+    text-align: center;
+    line-height: 100px;
+}
+/*navigation*/
+nav {
+    line-height: 3.5;
+    padding-top: 20px;
+    float: left;
+    height: 440px;
+    width: 10%;
+    background: rgb(169,169,169);
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+}
+nav ul {
+    list-style-type: none;
+}
+/*main*/
+main {
+    float: left;
+    height: 400px;
+    width: 65%;
+    padding-left: 1%;
+    
+    
+}
+main img {
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+.THONG-TIN-CA-NHAN {
+    line-height: 1.5;
+    float: left;
+    padding:1% 0;
+    width: 30%;
+    background: rgb(0,255,0);
+    height: 110%;
+    box-shadow: 5px 5px #666;
+    -moz-box-shadow: 5px 5px #666;
+    -webkit-box-shadow: 5px 5px #666;
+}
+.SO-THICH {
+    line-height: 1.5;
+    float: right;
+    margin: 1%;
+    padding:1%;
+    width: 62%;
+    background: rgba(22, 189, 226, 0.15);
+    text-align: left;
+    height: 72%;
+    box-shadow: 5px 5px #666;
+    -moz-box-shadow: 5px 5px #666;
+    -webkit-box-shadow: 5px 5px #666;
+}
+.Face{
+    line-height: 1.5;
+    float: right;
+    margin: 0 1%;
+    padding:1% 1%;
+    width: 62%;
+    background: rgba(22, 189, 226, 0.15);
+    text-align: left;
+    height: 42%;
+    box-shadow: 5px 5px  #666;
+    -moz-box-shadow: 5px 5px  #666;
+    -webkit-box-shadow: 5px 5px  #666;
+}
+dl {
+    /*border: 3px double #ccc;*/
+    padding: 0.5em;
+}
+dt {
+    float: left;
+    clear: left;
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+    color: green;
+}
+dt::after {
+    content: ":";
+}
+dd {
+    text-align: left;
+    margin: 0 0 0 130px;
+    padding: 0 0 0.5em 0;
+}
+/*social network icon*/
+.social-network-icon {
+    text-align: center;
+}
+.f{
+    width: 60px;
+    height: 42px;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial;
+    display: inline-block;
+    padding-top: 17px;
+}
+.f:hover{
+    opacity: 0.7;
+}
+.f-facebook{
+    background: #395999;
+}
+.f-google{
+    background: #DE4A37;
+   }
+.f-skype{
+    background: #00B0F1;
+}
+/*footer*/
+footer {
+    width: 160%;
+    clear: both;
+    height: 30px;
+    background: red;
+    color: #fff;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 1%;
+    margin-top: 1%;
+
+}
