@@ -1,0 +1,28 @@
+body {
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/a9/be/03/a9be03270cdc64e7772a88a9805bd316.jpg);
+	}
+table, th, td {
+	border: 2px solid #fff;
+	text-align:center;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+th {
+	background-color: #c0c0c0;
+	height: 25px;
+}
+td {
+	color: #ebf10e;
+	height: 35px;
+}
+
+.a img {
+	width: 50%;
+	
+}
+.aa {
+	background-color: #c0c0c0;
+}
+
