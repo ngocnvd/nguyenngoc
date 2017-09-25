@@ -23,6 +23,9 @@ body {
 	float: right;
 	margin: 40px 90px;
 }
+.menu img {
+	width: 360px;
+}
 .menu-2 {
 	width: 100%;
 	height:85px;
