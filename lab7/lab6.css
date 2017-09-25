@@ -1,0 +1,116 @@
+*
+{
+	font-size: 15px;
+	font-family: tahoma, arial;
+}
+header {
+	height: 150px;
+	margin: 2px 5px;
+	background: #999999;
+	position: sticky;
+	top: 0;
+
+}
+body {
+	background-image: url(http://thuthuat123.com/uploads/2015/11/21/hinh-nen-may-tinh-thien-nhien-2_035347.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0 12%;
+}
+.logo {
+	margin: 10px 30px;
+}
+.logo img {
+	width: 130px;
+	height: 130px;
+	float : left;
+}
+.logo-text {
+	margin: 40px 10px;
+	float: left;
+}
+.menu {
+	margin: 10px 60px;
+}
+.menu img {
+	width: 40px;
+}
+.menu-2 {
+	width: 100%;
+	height: 85px;
+	border: 3px solid black;
+	background: #00bfbf;
+	color: #ffffff;
+	font-style: italic;
+	display: inline-block;
+
+}
+.menu-2 p { 
+	text-align: right;
+	margin-right: 15%;
+	}
+ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+.vanban {
+	color: black;
+	overflow: scroll;
+	margin: 10px 25px;
+	width: 30%;
+	height: 235px;
+	float: left;
+	margin: 6px;
+}
+.vanban b {
+	font-style: italic;
+}
+.vanban img {
+	width: 80%;
+}
+footer {
+	background: #00bfbf;
+	border:3px solid black;
+    height: 35px;
+    width: 100%;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    margin: 5px 5px;
+
+}
+.batdau {
+    display: scroll;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+.batdau img {
+    width: 10%;
+    float: right;
+    padding: 10px;
+}
+.ngoc {
+	position: fixed;
+	animation-name: Ngoc2;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes Ngoc2 {
+	from {
+	width: 10px;
+	height: 30px;
+	top: 300px;
+	left: 1000px;
+}
+	to {
+	width: 200px;
+	height: 100px;
+	top: 200px;
+	left: 600px;
+	background-color: green;
+	border-radius: 50%;
+}
