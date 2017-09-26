@@ -1,0 +1,196 @@
+header {
+	z-index: 1000;
+	width: 100%;
+	height: 5%;
+	border-bottom: 1px solid black;
+	position: fixed;
+	background-color: #b0c4de	;
+	top: 0;
+}
+body {
+	background-image: url(ht&pid=15.1);
+	background-size: 100%
+}
+.logo {
+	margin: 0 100px;
+}
+.logo-dangnhap {
+	margin: 0 100px;
+	float: right;
+}
+.logo-dangnhap a {
+	margin: 0 5px;
+	color: black;
+}
+.menu {
+	margin-top: 1%;
+	width: 100%;
+	text-shadow: 0px 1px yellow;
+	position: relative;
+	color: red;
+	display: inline-block;
+	font-style: italic;
+	border: 2px solid blue;
+	height: 100px;
+}
+.navigation {
+	margin-top: 1%;
+	display: inline;
+}
+.menu a {
+	color: black;
+}
+.menu img {
+	margin: 0 0;
+}
+.logo-menu img {
+	float: left;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.logo-dowload img {
+	margin: 5px 0 0 0;
+}
+.logo-sukien img {
+	margin: 1px 0 0 0;
+}
+.logosung {
+	width: 40%;
+	text-align: center;
+	position: relative;
+	animation-name: logosung;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes logosung {
+	from {
+		top: 17px;
+		left: 90px;
+	}
+	to {
+		top: 15px;
+		left: 0;
+	}
+}
+.hinhnen img {
+	width: 100%;
+}
+.khung-khogame {
+	border: 5px solid #696969;
+	color: black;
+	overflow: scroll;
+	margin: 1px 5px;
+	width: 31%;
+	height: 240px;
+	float: left;
+	background-color: #dcdcdc;
+	border-radius: 10px
+}
+.khung-khogame a{
+	border: 1px solid red;
+	color: red;
+	border-radius: 5px;
+	background: #ffd700;
+}
+.DOWNLOAD {
+	margin-top: 10%;
+
+}
+.DOWNLOAD a {
+	padding: 1%;
+	margin: 150px;
+}
+.khogame-b  {
+	margin-top: 5%;
+}
+.tenkhogame-1 strong {
+	border-bottom: 4px solid blue;
+	color: black;
+	width: 100%;
+	height: 8%;
+	float: left;
+	padding-top: 5px;
+	color: green;
+	font-style: italic;
+}
+.tenkhogame-2 strong {
+	border-bottom: 4px solid blue;
+	color: black;
+	width: 100%;
+	height: 8%;
+	float: left;
+	padding-top: 5px;
+	color: red;
+	font-style: italic;
+}
+.tenkhogame-3 strong {
+	border-bottom: 4px solid blue;
+	color: black;
+	width: 100%;
+	height: 8%;
+	float: left;
+	padding-top: 5px;
+	color: #9932cc;
+	font-style: italic;
+}
+.tenkhogame-4 strong {
+	border-bottom: 4px solid blue;
+	color: black;
+	width: 100%;
+	height: 8%;
+	float: left;
+	padding-top: 5px;
+	color: #0000cd;
+	font-style: italic;
+}
+.tenkhogame-5 strong {
+	border-bottom: 4px solid blue;
+	color: black;
+	width: 100%;
+	height: 8%;
+	float: left;
+	padding-top: 5px;
+	color: #ff1493;
+	font-style: italic;
+}
+.tenkhogame-6 strong {
+	border-bottom: 4px solid blue;
+	color: black;
+	width: 100%;
+	height: 8%;
+	float: left;
+	padding-top: 5px;
+	color: #808080;
+	font-style: italic;
+}
+.logo-game img {
+	margin: 5% 2%;
+	float: left;
+	width: 35%;
+	border-radius: 50%;
+}
+.back {
+    display: scroll;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+.back img {
+    width: 10%;
+    float: right;
+    padding: 10px;
+}
+footer {
+	background: #00bfbf;
+	border:3px solid black;
+    height: 35px;
+    width: 100%;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    margin: 5px 5px;
+    padding-top: 1%;
+
+}
