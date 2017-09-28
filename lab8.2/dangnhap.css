@@ -1,0 +1,43 @@
+.bangdangnhap {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 40%;
+    display: inline-table;
+    background-color: #b2b2b2;
+
+}
+.menu {
+    margin: 10px 150px;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=time], input[type=date] {
+    border: 2px solid green;
+    border-radius: 10%;
+}
+.logo-menu img {
+    float: left;
+    margin-top: 20px;
+}
+
+input[type=timkiem] {
+    width: 130px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    float: right;
+}
+input[type=text]:focus {
+    width: 50%;
+}
+input[type=password]:focus {
+    width: 50%;
+}
+
+input[type=timkiem]:focus {
+    width: 50%;
+    background-color: lightblue;
+}
+h4 {
+    text-decoration: line-through;
+}
